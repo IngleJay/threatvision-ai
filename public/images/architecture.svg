@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="480" fill="#020617" rx="16" />
+  
+  <text x="500" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="-0.5">
+    ThreatVision AI Architecture &amp; Data Pipeline
+  </text>
+  <text x="500" y="70" font-family="monospace" font-size="12" fill="#64748b" text-anchor="middle">
+    Full-Stack SecOps Intelligence Flow
+  </text>
+
+  <!-- Node 1: Client UI -->
+  <g transform="translate(50, 120)">
+    <rect width="240" height="300" rx="12" fill="url(#cardGrad)" stroke="#3b82f6" stroke-width="1.5" />
+    <rect width="240" height="40" rx="12" fill="#1e3a8a" fill-opacity="0.4" />
+    <text x="120" y="26" font-family="monospace" font-size="14" font-weight="700" fill="#93c5fd" text-anchor="middle">🖥️ React 19 Frontend</text>
+    
+    <text x="20" y="75" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• AbuseIPDB Checker UI</text>
+    <text x="20" y="105" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• File &amp; Payload Drag-Drop</text>
+    <text x="20" y="135" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• Confidence Gauge Meters</text>
+    <text x="20" y="165" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• Incident Log Terminal</text>
+    <text x="20" y="195" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• IOC Pivot Action Links</text>
+    <text x="20" y="225" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• Report Exporter (TXT/JSON)</text>
+    
+    <rect x="20" y="250" width="200" height="30" rx="6" fill="#1e293b" />
+    <text x="120" y="270" font-family="monospace" font-size="11" fill="#38bdf8" text-anchor="middle">Tailwind CSS + Lucide</text>
+  </g>
+
+  <!-- Node 2: Express Server -->
+  <g transform="translate(380, 120)">
+    <rect width="240" height="300" rx="12" fill="url(#cardGrad)" stroke="#6366f1" stroke-width="1.5" />
+    <rect width="240" height="40" rx="12" fill="#312e81" fill-opacity="0.4" />
+    <text x="120" y="26" font-family="monospace" font-size="14" font-weight="700" fill="#c7d2fe" text-anchor="middle">⚙️ Node / Express API</text>
+    
+    <text x="20" y="75" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• POST /check-ip Endpoint</text>
+    <text x="20" y="105" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• POST /scan (Multer/Raw)</text>
+    <text x="20" y="135" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• Static Heuristic Engine</text>
+    <text x="20" y="165" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• Regex IOC Extractor</text>
+    <text x="20" y="195" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• SHA256 &amp; MD5 Hasher</text>
+    <text x="20" y="225" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• DNS Resolver &amp; GeoIP</text>
+    
+    <rect x="20" y="250" width="200" height="30" rx="6" fill="#1e293b" />
+    <text x="120" y="270" font-family="monospace" font-size="11" fill="#818cf8" text-anchor="middle">Native TypeScript Engine</text>
+  </g>
+
+  <!-- Node 3: External Intelligence & AI -->
+  <g transform="translate(710, 120)">
+    <rect width="240" height="300" rx="12" fill="url(#cardGrad)" stroke="#10b981" stroke-width="1.5" />
+    <rect width="240" height="40" rx="12" fill="#064e3b" fill-opacity="0.4" />
+    <text x="120" y="26" font-family="monospace" font-size="14" font-weight="700" fill="#6ee7b7" text-anchor="middle">🧠 Threat Feeds &amp; AI</text>
+    
+    <text x="20" y="75" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• AbuseIPDB V2 API</text>
+    <text x="20" y="105" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• Tor Exit Node Sentinel</text>
+    <text x="20" y="135" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• Gemini 3.7 Flash AI</text>
+    <text x="20" y="165" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• MITRE ATT&amp;CK Mapper</text>
+    <text x="20" y="195" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• Threat Actor Profiling</text>
+    <text x="20" y="225" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">• SecOps Containment Plan</text>
+    
+    <rect x="20" y="250" width="200" height="30" rx="6" fill="#1e293b" />
+    <text x="120" y="270" font-family="monospace" font-size="11" fill="#34d399" text-anchor="middle">@google/genai SDK</text>
+  </g>
+
+  <!-- Connectors / Arrows -->
+  <path d="M 290 270 L 380 270" stroke="url(#arrowGrad)" stroke-width="3" fill="none" marker-end="url(#arrow)" />
+  <path d="M 620 270 L 710 270" stroke="url(#arrowGrad)" stroke-width="3" fill="none" marker-end="url(#arrow)" />
+</svg>
