@@ -14,7 +14,7 @@
 [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-Flash-8E75B2.svg?style=flat-square&logo=google)](https://ai.google.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
-[**🌐 Live Application Demo**](https://ais-pre-x6ylry3puqsxgloyhjz5yr-391034760996.asia-southeast1.run.app) • [**📖 Documentation**](#-architecture--data-pipeline) • [**🚀 Getting Started**](#-quick-start) • [**🔌 API Reference**](#-api-endpoints)
+[**🌐 Live Application Demo**](https://ais-pre-x6ylry3puqsxgloyhjz5yr-391034760996.asia-southeast1.run.app) • 
 
 </div>
 
